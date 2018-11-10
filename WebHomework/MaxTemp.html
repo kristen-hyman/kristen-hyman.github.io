@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherPy Webpage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid navbar-custom">
+            
+                    <div class ="row">
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    
+                            </button>
+                        </div>
+                                  <div class="col-xs-9 phone-nav">
+                                        <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
+                                  </div>
+            
+            
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                     <li><a href="MaxTemp.html">Max Temperature</a></li>
+                                      <li><a href="Humidity.html">Humidity</a></li>
+                                      <li><a href="Cloudy.html">Cloudiness</a></li>
+                                      <li><a href="Windspeed.html">Wind Speed</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="comparison.html">Comparison</a></li>
+                                  <li><a href="data.html">Data</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                </div>
+                </nav>
+            
+                 <div class="mycontainer">
+            <br>
+    <header class="header">
+         <h1> Summary: Latitude vs. Temperature </h1>
+    </header>
+
+     <div class="container">
+<br>
+    <div class="row">
+        <div class="col-md-8">
+        <img src="LatitudeVMaxTemp.png" alt="Temperature Weather Plot" style="width:500px;height:350px;" class="pull-left"></p>
+    <p><font size="4" class= "blue">The purpose of this project was to analyze how weather changes as you get to the equator. 
+        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
+        <br> 
+    <p> This graph shows the trending between max temperature and latitude.</font></p> 
+    </div>
+ 
+
+</body>
+
+</html>
